@@ -18,7 +18,7 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 ### Step 2: Install PDF file conversion tools.
 
 1. Download the code from this repository into a separate folder named `bookle`, for example.
-2. There are two python tools, `extract.py` and `replace.py`, which can be started from a shell window.
+2. There are two python programs, `extract.py` and `replace.py`, which can be started from a shell window.
 3. Each program takes one argument, the pathname of the PDF file to be converted.
 4. The batch command files named `extract.bat` and `replace.bat` are provided to automatically launch these Python programs for those not familiar with running python programs from a shell window.
 5. The first program, `extract.py`, creates a file named `urls.txt` with one line for each URL in the specified PDF file. Usage: `python extract.py file.pdf`, or simply launch `extract.bat`.
