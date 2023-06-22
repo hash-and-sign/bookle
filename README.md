@@ -44,5 +44,6 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 
 1. Use a browser that can display PDFs and play audio-visual resources such as MP3s and MP4s within its window, such as the Chrome browser.
 2. When a link is clicked in a PDF, the target resource loads into the current tab. If you then return to the PDF, you may be at the beginning, having lost your place. To avoid this problem, instead hold down the control key when clicking a link to open the target in a new tab. Holding down both the shift and control keys when clicking shifts focus to the new tab immediately. Alternatively, you can press the mouse wheel (optionally with the shift key held down).
-3. Wikipedia articles can easily be downloaded as PDFs using the Tools menu righ on the Wikipedia article page. 
-4. Any web page can be downloaded as a PDF using a service such as [Web Page to PDF](https://webtopdf.com)
+3. You can download YouTube videos using the service [ssyoutube](https://ssyoutube.com/en108ng/youtube-video-downloader). Ohter services are available for other video platforms that, like YouTube, do not already offer easy downloading. 
+4. Wikipedia articles can easily be downloaded as PDFs using the Tools menu righ on the Wikipedia article page. 
+5. Any web page can be downloaded as a PDF using a service such as [Web Page to PDF](https://webtopdf.com)
