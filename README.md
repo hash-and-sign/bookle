@@ -13,7 +13,7 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 4. Click on `server.bat` to start the server.
 5. On Windows, a warning about your computer's firewall will appear. You should enable private network access and disable public network access. This only needs to be done once. On other platforms, follow the appropraite procedure to open your firewall for the Python server.
 6. A shell window opens and stays open to log server activity. Closing the shell window stops the Python server.
-7. Test the server by opening a browser and typing `localhost` in the URL field. A directory of the server folder is shown, namely the `server.bat` file.
+7. Test the server by opening a browser and typing `localhost` in the URL field. A directory of the server folder is shown.
 
 ### Step 2: Install PDF file conversion tools.
 
