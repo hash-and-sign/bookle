@@ -35,10 +35,10 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 6. Replace the URLs in the PDF file according to the modified `urls.txt`, as explained in Step 2.6.
 7. Move the converted PDF file to the server folder created in Step 1.2.
 8. Test the bookle based on the converted PDF by:
-   a. starting the server as explained in Step 1.4,
-   b. entering `localhost` in the URL field of a browser,
-   c. clicking on the filename of your converted PDF file,
-   d. then after the PDF opens, clicking on a link to a local audio-visual file.
+   a.) starting the server as explained in Step 1.4,
+   b.) entering `localhost` in the URL field of a browser,
+   c.) clicking on the filename of your converted PDF file,
+   d.) then after the PDF opens, clicking on a link to a local audio-visual file.
 
 ### Tips
 
