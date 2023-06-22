@@ -14,7 +14,7 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 5. On Windows, a warning about your computer's firewall will appear. You should enable private network access and disable public network access. This only needs to be done once. On other platforms, follow the appropraite procedure to open your firewall for the Python server.
 6. A shell window opens and stays open to log server activity. Closing the shell window stops the Python server.
 7. Test the server by opening a browser and typing `localhost` in the URL field. A directory of the server folder is shown, namely the `server.bat` file.
-8. Move any audio-visual files you wish to serve locally into the server folder, preferably into subfolders, one per bookle. These files should be renamed to form proper URLs. I recommend using the character set a-z, A-Z, 0-9, period, underscore and hyphen, but you can also use urlencoder.org
+8. Move any audio-visual files you wish to serve locally into the server folder, preferably into subfolders, one per bookle. These files should be renamed to form proper URLs. I recommend using the character set a-z, A-Z, 0-9, period, underscore and hyphen, but you can also use [urlencoder.org](https://www.urlencoder.org)
 9. Move converted PDF files, one for each bookle, into the server folder. See Step 3 below for conversion instructions.
 
 ### Step 2: Install PDF file conversion tools.
