@@ -19,10 +19,10 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 
 1. Download the code from this repository into a separate folder named `bookle`, for example.
 2. There are two python tools, `extract.py` and `replace.py`, which can be started from a command line in a command window.
-3. Each program takes one argument, the pathname of the PDF file to be converted, like so: `python extract.py file.pdf` and `python replace.py file.pdf`
+3. Each program takes one argument, the pathname of the PDF file to be converted.
 4. The batch command files named `extract.bat` and `replace.bat` are provided to automatically launch these Python programs for those not familiar with running python programs from a shell window.
-5. The first program, `extract.py`, creates a file named `urls.txt` with one line for each URL in the specified PDF file.
-6. The second program, `replace.py`, reads `urls.txt` after it has been modified, using it to replace URLs in the specified PDF file.
+5. The first program, `extract.py`, creates a file named `urls.txt` with one line for each URL in the specified PDF file. Usage: `python extract.py file.pdf`, or simply launch `extract.bat`.
+6. The second program, `replace.py`, reads `urls.txt` after it has been modified, using it to replace URLs in the specified PDF file. Usage: `python replace.py file.pdf`, or simply launch `replace.bat`.
 7. There is also a third program, `server.bat`, mentioned in Step 1.3.
 
 ### Step 3: Prepare a PDF file for local, offline use
