@@ -9,7 +9,7 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 
 1. Install [Python3](https://www.python.org/downloads/), perhaps the easiest way to install a server.
 2. Create a folder named `server`, for example.
-3. Inside the folder, create an executable file to launch the server. On a Windows system, this could be a batch file such as `server.bat` containing the single line: `python -m http.server 80`. This file can be placed outside the `server` folder if the command `cd path-to-server` is inserted at the beginning. Wherever the python server is invoked becomes the server's document root folder. 
+3. Inside the folder, create an executable file to launch the server. On a Windows system, this could be a batch file such as `server.bat` containing the single line: `python -m http.server 80`. This file can be placed outside the `server` folder if the command `cd path-to-server` is inserted at its beginning. Wherever the python server is invoked becomes the server's document root folder. 
 4. Click on `server.bat` to start the server.
 5. On Windows, a warning about your computer's firewall will appear. You should enable private network access and disable public network access. This only needs to be done once. On other platforms, follow the appropraite procedure to open your firewall for the Python server.
 6. A shell window opens and stays open to log server activity. Closing the shell window stops the Python server.
