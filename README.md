@@ -7,7 +7,7 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 
 ### Step 1: Set up a server on your computer.
 
-1. Install Python3, perhaps the easiest way to install a server.
+1. Install [Python3](https://www.python.org/downloads/), perhaps the easiest way to install a server.
 2. Create a folder named `server`, for example.
 3. Inside the folder, create an executable script file to launch the server. On a Windows system, this would be a batch file such as `server.bat` containing the single line: `python -m http.server 80`
 4. Click on `server.bat` to start the server.
@@ -28,15 +28,17 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 
 ### Step 3: Convert a PDF file for local, offline use
 
-1. Extract the URLs from a PDF file as explained in Step 2.
-2. Edit the `urls.txt` file, appending to each URL a comma followed by the pathname of an audio-visual file, relative to the server folder.
+1. Extract the URLs from a PDF file as explained in Step 2.5.
+2. Edit the created `urls.txt` file, appending to each URL a comma followed by the pathname of an audio-visual file, relative to the server folder.
 3. Example line in `urls.txt` (for an mp4 video file stored in the server subfolder `fs`: `https://youtu.be/Hrowi4hHz8A,fs/Yes-Love_Will_Find_a_Way.mp4`
 4. If you do not have a local file for one of the URLs in `urls.txt`, either leave it as is or delete the line it is in.
-5. Replace the URLs in the PDF file according to the modified `urls.txt`, as explained in Step 2.
-6. Move the converted PDF file to the `server` folder.
-7. Test the bookle based on the converted PDF by starting the server as explained in Step 1, then entering `localhost` in the URL field of a browser, then clicking on the name of your converted PDF file.
+5. Replace the URLs in the PDF file according to the modified `urls.txt`, as explained in Step 2.6.
+6. Move the converted PDF file to the `server` folder created in Step 1.2.
+7. Test the bookle based on the converted PDF by starting the server as explained in Step 1.4, then entering `localhost` in the URL field of a browser, then clicking on the name of your converted PDF file.
 
 ### Tips
 
 1. Use a a browser that can display PDFs and play audio-visual resources such as MP3s and MP4s within its window, such as the Chrome browser.
 2. When a link is clicked in a PDF, the target resource loads into the current tab. If you then return to the PDF, you may be at the beginning, having lost your place. To avoid this problem, instead hold down the control key when clicking a link to open the target in a new tab. Holding down both the shift and control keys when clicking shifts focus to the new tab immediately. Alternatively, you can press the mouse wheel (optionally with the shift key held down).
+3. Wikipedia articles can easily be downloaded as PDFs using the Tools menu righ on the Wikipedia article page. 
+4. Any web page can be downloaded as a PDF using a service such as [Web Page to PDF](https://webtopdf.com)
