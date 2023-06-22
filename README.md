@@ -30,7 +30,7 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 1. Move any audio-visual files you are serving locally into the server folder created in Step 1.2, preferably into a subfolder in case you have more than one bookle. These files should be renamed to form proper URLs. I recommend using the character set a-z, A-Z, 0-9, period, underscore and hyphen, but you can also use [urlencoder.org](https://www.urlencoder.org)
 2. Extract the URLs from the PDF file as explained in Step 2.5.
 3. Edit the created `urls.txt` file, appending to each URL a comma followed by the pathname of an audio-visual file, relative to the server folder.
-4. Example line in `urls.txt` (for an mp4 video file stored in the `server/fs` subfolder: `https://youtu.be/Hrowi4hHz8A,fs/Yes-Love_Will_Find_a_Way.mp4`
+4. Example line in `urls.txt` (for an mp4 video file stored in the `server/fs` subfolder): `https://youtu.be/Hrowi4hHz8A,fs/Yes-Love_Will_Find_a_Way.mp4`
 5. If you do not have a local file for one of the URLs in `urls.txt`, either leave it as is or delete the line it is in.
 6. Replace the URLs in the PDF file according to the modified `urls.txt`, as explained in Step 2.6.
 7. Move the converted PDF file to the server folder created in Step 1.2.
