@@ -25,7 +25,7 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 6. The second program, `replace.py`, reads `urls.txt` after it has been modified, using it to replace URLs in the specified PDF file.
 7. There is also a third program, `server.bat`, mentioned in Step 1.3.
 
-### Step 3: Convert a PDF file for local, offline use
+### Step 3: Prepare a PDF file for local, offline use
 
 1. Move any audio-visual files you are serving locally into the server folder created in Step 1.2, preferably into a subfolder in case you have more than one bookle. These files should be renamed to form proper URLs. I recommend using the character set a-z, A-Z, 0-9, period, underscore and hyphen, but you can also use [urlencoder.org](https://www.urlencoder.org)
 2. Extract the URLs from the PDF file as explained in Step 2.5.
