@@ -9,7 +9,7 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 
 1. Install [Python3](https://www.python.org/downloads/), perhaps the easiest way to install a server.
 2. Create a folder named `server`, for example.
-3. Inside the folder, create an executable file to launch the server. On a Windows system, this could be a batch file such as `server.bat` containing the single line: `python -m http.server 80`. This file can be placed outside the `server` folder if the command `cd path-to-server` is inserted at its beginning. Wherever the python server is invoked becomes the server's document root folder. 
+3. Inside the folder, create an executable file to launch the server. On a Windows system, this could be a batch file such as `server.bat` containing the single line: `python -m http.server 80`. This file can be placed outside the `server` folder if the command `cd path-to-server` is inserted at its beginning. Wherever the Python server is invoked becomes the server's document root folder. 
 4. Click on `server.bat` to start the server.
 5. On Windows, a warning about your computer's firewall will appear. You should enable private network access and disable public network access. This only needs to be done once. On other platforms, follow the appropraite procedure to open your firewall for the Python server.
 6. A shell window opens and stays open to log server activity. Closing the shell window stops the Python server.
@@ -18,9 +18,9 @@ A bookle is a multimedia virutal book, readable on your own off-line computer us
 ### Step 2: Install PDF file conversion tools.
 
 1. Download the code from this repository into a separate folder named `bookle`, for example.
-2. There are two python programs, `extract.py` and `replace.py`, which can be started from a shell window.
+2. There are two Python programs, `extract.py` and `replace.py`, which can be started from a shell window.
 3. Each program takes one argument, the pathname of the PDF file to be converted.
-4. The batch command files named `extract.bat` and `replace.bat` are provided to automatically launch these Python programs for those not familiar with running python programs from a shell window.
+4. The batch command files named `extract.bat` and `replace.bat` are provided to automatically launch these Python programs for those not familiar with running Python programs from a shell window.
 5. The first program, `extract.py`, creates a file named `urls.txt` with one line for each URL in the specified PDF file. Usage: `python extract.py file.pdf`, or simply launch `extract.bat`.
 6. The second program, `replace.py`, reads `urls.txt` after it has been modified, using it to replace URLs in the specified PDF file. Usage: `python replace.py file.pdf`, or simply launch `replace.bat`.
 7. There is also a third program, `server.bat`, mentioned in Step 1.3.
