@@ -19,7 +19,7 @@ with open(dict_file, 'r') as map:
         line = line.split(',')
         if len(line) != 2:
             continue
-        dict[line[0]] = line[1]
+        dict[line[0]] = line[1].rstrip()
     map.close()
 
 if len(dict) == 0:
